@@ -10,5 +10,5 @@ def listar_libros(request):
     return render(
         request, 
         'libros/listar_libros.html',
-        {'libros'= libros}
+        {'libros': libros}
     )
