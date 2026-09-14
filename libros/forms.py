@@ -3,7 +3,7 @@ from django import forms
 from .models import Libro
 
 # ModelForm permite crear automaticamente un formulario utilizando un models
-class LibroForm(forms.ModleForm):
+class LibroForm(forms.ModelForm):
     #Metaclase
     class Meta:
         #a que modelo estamos apuntando
